@@ -5,6 +5,8 @@ For this project, I was tasked with developing a model to predict the selling pr
   https://www.phila.gov/property/data/
 	
   I used the above website to download data on properties in Philadelphia as a .csv file. Then I went through the attributes and decided which ones could impact selling prices. I ultimately decided on zip code, total area, number of bathrooms, number of bedrooms, number of stories, interior and exterior condition, sale date, sale price, and market value. 
+
+  *Note: the data was too large to add to the github.
   
 ## Data Preprocessing
   In order to clean and prepare the data for analysis, I had to handle missing values and infinite values, then impute these values using the median so it would be in a suitable format for modeling. 
