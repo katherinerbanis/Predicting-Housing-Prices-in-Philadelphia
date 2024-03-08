@@ -16,3 +16,10 @@ Gradient Boosting further refines this approach by correctly errors from the pre
 I ended up choosing Gradient Boosting as it offered a better balance between performance and efficiency. Random Forest actually had the best performance of the four as it had the highest r^2 value and the lowest MSE. However, it took a very long time. So I decided to go with the next best, which was Gradient Boosting. Decision Tree was comparable to Gradient Boosting, but ultimately Gradient Boosting was better. Linear Regression was the least effective with the lowest r^2 value and the highest MSE.
 ## Reflection
 My biggest challenge was data preprocessing and feature engineering. I had trouble deciding what data to use and what to drop. Some features that I thought would impact market value, such as having a garage, heat, A/C, had many missing values so I had to drop them. Many of the number of bedrooms, bathrooms, stories had zero, which I don’t think is accurate. For future research, I think it would be interesting to see how the average sale price compares to current market values.
+## Results
+Linear Regression MSE: 22308683947.04089, r^2: 0.5046116215429144 
+Decision Tree MSE: 17037119413.054193, r^2: 0.6216723953932672 
+Random Forest MSE: 8573095198.523157, r^2: 0.8096251783011184 
+Gradient Boosting MSE: 13043126366.085533, r^2: 0.7103633170004617 
+Gradient Boosting MAE: 57137.60829373849 
+Gradient Boosting RMSE: 114206.50754701124
